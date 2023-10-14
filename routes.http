@@ -1,0 +1,27 @@
+POST http://localhost:3000/todo
+Content-Type: application/json
+
+{
+    "id": 1,
+    "atividade": "Estudar",
+    "status": "Em andamento"
+}
+
+###
+
+GET http://localhost:3000/todo
+
+###
+
+PUT http://localhost:3000/todo/1
+Content-Type: application/json
+
+{
+    "id": 1,
+    "atividade": "Jogar",
+    "status": "Em andamento"
+}
+
+###
+
+DELETE http://localhost:3000/todo/1
